@@ -40,6 +40,11 @@ nav a{
 nav a:hover{
     color: white;
 }
+#start a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
 @media (min-width: 769px){
     .right{
         float: right;
@@ -63,7 +68,7 @@ nav a:hover{
     }
 }
 
-@media (min-width:300px) and (max-width: 769px) {
+@media(max-width: 769px) and (min-width:400px){
     .right{
         font-size: 2rem;
     }
@@ -85,8 +90,24 @@ nav a:hover{
     }
 }
 
-@media (max-width: 300px){
+@media (max-width:400px){
     .right{
         font-size: 1rem;
+    }
+    #logo{
+        display: none;
+    }
+    body{
+        text-align: center;
+    }
+    .header{
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+    #start{
+        margin-bottom: 0.5rem;
+    }
+    .below-nav{
+        max-width: 50%;
     }
 }
