@@ -1,0 +1,67 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 5rem;
+    align-items: center;
+    background-color: black;
+    color: white;
+    text-align: left;
+    border-radius: 1rem;
+}
+.left{
+    margin: 2rem;
+}
+.right{
+    margin: 2rem;
+    font-size: 2rem;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("https://cdn3.vectorstock.com/i/1000x1000/24/12/white-indian-lotus-on-blue-background-vector-21332412.jpg");
+    text-align: center;
+    background-attachment: fixed;
+}
+#logo{
+    height: 5rem;
+    margin: auto 2rem;
+    padding-bottom: 1rem;
+}
+nav{
+    padding-top: 1rem;
+    background-color: black;
+    margin-bottom: 5rem;
+}
+.card{
+    margin: 2rem;
+    padding: 1rem;
+    background-color: yellowgreen;
+}
+.name1{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.explore{
+    margin: 1rem 0rem;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+}
+.title{
+    font-size: 3rem;
+    color: black;
+    font-weight: bolder;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+}
+.cardsBox{
+    margin: auto 5rem;
+}
+h1{
+    background-color: pink;
+}
