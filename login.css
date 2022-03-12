@@ -1,0 +1,132 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("https://cdn3.vectorstock.com/i/1000x1000/20/67/vintage-indian-seamless-wallpaper-vector-5782067.jpg");
+}
+#logo{
+    height: 4rem;
+    margin: auto 2rem;
+}
+.right a{
+    text-decoration: none;
+    margin: auto 2rem;
+}
+nav{
+    padding-top: 1rem;
+    background-color: black;
+}
+nav a{
+    color: #f16a91;
+}
+nav a:hover{
+    color: white;
+}
+
+.login-box{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+.other{
+    font-size: 1rem;
+    margin: 0.5rem;
+}
+.forgot-password{
+    font-size: 1.1rem;
+}
+.forgot-password a{
+    text-decoration: none;
+    color: #1200b9;
+}
+.password1{
+    margin-bottom: 0.5rem;
+}
+.google{
+    color: #f16a91;
+}
+.facebook{
+    color: #0e0957;
+}
+.submit{
+    padding: 0.5rem 1rem;
+    background-color: #00b5b4;
+    border: none;
+    margin: 0.5rem;
+}
+@media (min-width: 769px){
+    .right{
+        float: right;
+        font-size: 3rem;
+    }
+    .right a{
+        margin: auto 1rem;
+    }
+    .right i{
+        display: none;
+    }
+    .login-box{
+        margin: 8rem 30rem;
+        padding: 2rem;
+    }
+    .data{
+        font-size: 1.5rem;
+        margin: 1.5rem;
+        padding: 0.25rem;
+    }
+    .head{
+        font-size: 3rem;
+        margin: 1rem;
+        color: #1f486d;
+    }
+    .data input{
+        font-size: 1.2rem;
+    }
+}
+
+@media(max-width: 769px) and (min-width:400px){
+.right{
+    font-size: 2rem;
+}
+#logo{
+    display: none;
+}
+body{
+    text-align: center;
+}
+.data{
+    font-size: 1rem;
+    margin: 1rem;
+    padding: 0.25rem;
+}
+.head{
+    font-size: 2rem;
+    margin: 1rem;
+    color: #1f486d;
+}
+.data input{
+    font-size: 1rem;
+}
+.login-box{
+    margin: 6rem 10rem;
+    padding: 2rem;
+}
+}
+
+@media (max-width:400px){
+.right{
+    font-size: 1rem;
+}
+#logo{
+    display: none;
+}
+body{
+    text-align: center;
+}
+.login-box{
+    margin: 2rem 1rem;
+}
+.data{
+    font-size: 1rem;
+    padding: 0.2rem;
+    margin: 0.5rem;
+}
+}
