@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
 body{
     margin: 0px;
     padding: 0px;
-    background-image: url("https://cdn3.vectorstock.com/i/1000x1000/24/12/white-indian-lotus-on-blue-background-vector-21332412.jpg");
-    text-align: center;
+    /* background-image: url("https://cdn3.vectorstock.com/i/1000x1000/24/12/white-indian-lotus-on-blue-background-vector-21332412.jpg"); */
+    /* text-align: center; */
+    background-color: #1f1f1f;
     background-attachment: fixed;
 }
 #logo{
@@ -12,8 +17,11 @@ body{
 }
 nav{
     padding-top: 1rem;
+    background-color: #1f1f1f;
+    margin-bottom: 3rem;
+}
+nav:hover{
     background-color: black;
-    margin-bottom: 5rem;
 }
 
 
@@ -25,16 +33,18 @@ nav{
 }
 .card{
     margin: 2rem;
-    padding: 2rem;
-    background-color: #fde490;
+    padding: 2rem 2rem 0.5rem;
+    background-color: #ff993d;
     text-align: left;
 }
 .below-nav h1{
-    background-color: #fac518;
+    background-color: #1f1f1f;
     font-size: 5rem;
     margin: auto 20rem;
     border: none;
     border-radius: 1rem;
+    color: white;
+    border: solid #44aa88 10px;
 }
 .name1{
     font-size: 1.5rem;
@@ -44,8 +54,25 @@ nav{
 }
 .explore{
     margin: 1rem 0rem;
-    background-color: #ffffff;
+    background-color: #000000;
     border: none;
     border-radius: 0.5rem;
     font-size: 1.5rem;
+    color: white;
+}
+.explore:hover{
+    background-color: #1f1f1f;
+}
+img{
+    margin-bottom: 1rem;
+}
+.name1{
+    margin-bottom: 1rem;
+}
+.description{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.explore a{
+    color: white;
 }
