@@ -1,8 +1,8 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-image: url("https://cdn3.vectorstock.com/i/1000x1000/20/67/vintage-indian-seamless-wallpaper-vector-5782067.jpg");
     text-align: center;
+    overflow: hidden;
 }
 #logo{
     height: 4rem;
@@ -10,8 +10,7 @@ body{
 }
 nav{
     padding-top: 1rem;
-    background-color: black;
-    margin-bottom: 5rem;
+    background-color: #1f1f1f;
 }
 nav a{
     color: #f16a91;
@@ -21,13 +20,14 @@ nav a:hover{
 }
 .label{
     background-color: aliceblue;
-    margin: auto 5.3rem;
-    border: solid black;
+    margin: auto 2.4rem;
+    /* border: solid black; */
     padding: 1rem;
     color: black;
+    font-size: 2rem;
     font-weight: bold;
 }
-.label:hover{background-color: #f16a91;}
+.label:hover{background-color: #ffffff;}
 .l1{
     background-color: #7ef3f3;
 }
@@ -50,4 +50,12 @@ img{
 
 @media (max-width:400px){
 
+}
+img{
+    height: 65%;
+    margin-top: 2rem;
+}
+.row{
+    background-color: #1f1f1f;
+    margin-bottom: 2rem;
 }
