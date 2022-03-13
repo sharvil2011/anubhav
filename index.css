@@ -1,25 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
 body{
     margin: 0px;
     padding: 0px;
-    background-image: url("https://cdn3.vectorstock.com/i/1000x1000/20/67/vintage-indian-seamless-wallpaper-vector-5782067.jpg");
+    background-image: url("https://media.discordapp.net/attachments/949159970094583854/952381456708145212/1647135783098.png?width=1089&height=612");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #logo{
     height: 4rem;
     margin: auto 2rem;
 }
 .right a{
-
     text-decoration: none;
     margin: auto 2rem;
 }
 nav{
     padding-top: 1rem;
-    background-color: black;
+    /* background-color: black; */
 }
 .below-nav{
     margin: 6rem auto auto;
     text-align: center;
-    background-color: white;
     padding: 2rem 3rem;
     border-radius: 0.5rem;
     border: none;
@@ -29,21 +33,28 @@ nav{
     font-size: 1.5rem;
     border-radius: 0.5rem;
     border: none;
-    background-color: #f16a91;
+    background-color: #ffffff;
 }
 .header{
-    color: #193a6b;
-}
-nav a{
-    color: #f16a91;
+    color: #ffffff;
 }
 nav a:hover{
+    color: #ff993d;
+}
+nav a{
     color: white;
 }
 #start a{
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: bold;
+}
+#start:hover{
+    background-color: #ff993d;
+}
+.box1{
+    margin-left: -25rem;
+    width: 40rem;
 }
 @media (min-width: 769px){
     .right{
@@ -57,8 +68,8 @@ nav a:hover{
         display: none;
     }
     .header{
-        font-size: 6rem;
-        margin-bottom: 2rem;
+        font-size: 5rem;
+        margin-bottom: 4rem;
     }
     #start{
         margin-bottom: 1rem;
