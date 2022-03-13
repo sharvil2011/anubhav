@@ -10,17 +10,25 @@
 }
 .left{
     margin: 2rem;
+    background-color: #1f1f1f;
 }
 .right{
     margin: 2rem;
     font-size: 2rem;
+    background-color: #1f1f1f;
 }
 body{
     margin: 0px;
     padding: 0px;
-    background-image: url("https://cdn3.vectorstock.com/i/1000x1000/24/12/white-indian-lotus-on-blue-background-vector-21332412.jpg");
+    background-color: #1f1f1f;
     text-align: center;
     background-attachment: fixed;
+    background-image: url("https://media.discordapp.net/attachments/949159970094583854/952436470113792040/1.png?width=1089&height=612");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    background-color: #1f1f1f;
 }
 #logo{
     height: 5rem;
@@ -35,7 +43,6 @@ nav{
 .card{
     margin: 2rem;
     padding: 1rem;
-    background-color: yellowgreen;
 }
 .name1{
     font-size: 1.5rem;
@@ -63,5 +70,7 @@ nav{
     margin: auto 5rem;
 }
 h1{
-    background-color: pink;
+    border: solid #ff993d 8px;
+    margin: 30rem;
+    color: white;
 }
