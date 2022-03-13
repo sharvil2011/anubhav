@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap');
+*{
+    font-family: 'League Spartan', sans-serif;
+}
 body{
     margin: 0px;
     padding: 0px;
-    background-image: url("https://cdn3.vectorstock.com/i/1000x1000/20/67/vintage-indian-seamless-wallpaper-vector-5782067.jpg");
+    background-image: url("https://media.discordapp.net/attachments/949159970094583854/952381457005948988/1647135783105.png?width=1089&height=612");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #logo{
     height: 4rem;
@@ -13,18 +19,18 @@ body{
 }
 nav{
     padding-top: 1rem;
-    background-color: black;
 }
 nav a{
-    color: #f16a91;
+    color: white;
 }
 nav a:hover{
-    color: white;
+    color: #ff993d;
 }
 
 .login-box{
     text-align: center;
     background-color: rgb(255, 255, 255);
+    border-radius: 1.5rem;
 }
 .other{
     font-size: 1rem;
@@ -55,7 +61,7 @@ nav a:hover{
 @media (min-width: 769px){
     .right{
         float: right;
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .right a{
         margin: auto 1rem;
@@ -64,8 +70,11 @@ nav a:hover{
         display: none;
     }
     .login-box{
-        margin: 8rem 30rem;
+        margin-left: 35rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
         padding: 2rem;
+        margin-right: 20rem;
     }
     .data{
         font-size: 1.5rem;
@@ -129,4 +138,9 @@ body{
     padding: 0.2rem;
     margin: 0.5rem;
 }
+}
+
+input{
+    border-radius: 0.5rem;
+    margin: auto 1rem;
 }
